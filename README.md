@@ -7,7 +7,7 @@ This repository contains the preprocessing pipelines and baseline Intrusion Dete
 ```text
 .
 ├── dataset/
-│   └── AutoHack2025_IDS_Dataset_GA_20251121/    # Place the raw dataset here
+│   └── AutoHack2025_Dataset/    # Place the raw dataset here
 │       ├── Interface/
 │       │   ├── train/                           # Raw train CSVs
 │       │   └── test/                            # Raw test CSVs
