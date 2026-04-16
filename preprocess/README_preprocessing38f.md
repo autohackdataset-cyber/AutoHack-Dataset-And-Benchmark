@@ -17,7 +17,7 @@ This script is responsible for extracting 38 distinct features from the raw CAN-
 
 ## Inputs
 The script expects the raw AutoHack2025 dataset located at:
-`../dataset/AutoHack2025_IDS_Dataset_GA_20251121/Interface/`
+`../dataset/AutoHack2025_Dataset/Interface/`
 - Training Data: `train/autohack2025_train_data_interface.csv`, `train/autohack2025_train_label_interface.csv`
 - Testing Data: `test/autohack2025_test_data_interface.csv`, `test/autohack2025_test_label_interface.csv`
 
