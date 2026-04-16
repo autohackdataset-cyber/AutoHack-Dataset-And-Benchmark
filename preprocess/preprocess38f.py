@@ -22,7 +22,7 @@ warnings.filterwarnings('ignore')
 # =============================================================================
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-OUTPUT_DIR = os.path.join(BASE_PATH, "preprocess", "source", "AutoHack2025_38f")
+OUTPUT_DIR = os.path.join(BASE_PATH, "preprocess", "source", "AutoHack_38f")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -211,11 +211,11 @@ def main():
     print("38-FEATURE PREPROCESSING")
     print("=" * 80)
     # ── Load raw CSVs ────────────────────────────────────────────────────────
-    SOURCE_PATH = os.path.join(BASE_PATH, "dataset", "AutoHack2025_Dataset", "Interface")
-    train_data_path  = os.path.join(SOURCE_PATH, "train", "autohack2025_train_data_interface.csv")
-    train_label_path = os.path.join(SOURCE_PATH, "train", "autohack2025_train_label_interface.csv")
-    test_data_path   = os.path.join(SOURCE_PATH, "test",  "autohack2025_test_data_interface.csv")
-    test_label_path  = os.path.join(SOURCE_PATH, "test",  "autohack2025_test_label_interface.csv")
+    SOURCE_PATH = os.path.join(BASE_PATH, "dataset", "AutoHack_Dataset", "Interface")
+    train_data_path  = os.path.join(SOURCE_PATH, "train", "autohack_train_data_interface.csv")
+    train_label_path = os.path.join(SOURCE_PATH, "train", "autohack_train_label_interface.csv")
+    test_data_path   = os.path.join(SOURCE_PATH, "test",  "autohack_test_data_interface.csv")
+    test_label_path  = os.path.join(SOURCE_PATH, "test",  "autohack_test_label_interface.csv")
 
     print("\n[1] Loading raw CSVs ...")
     t0 = datetime.now()
