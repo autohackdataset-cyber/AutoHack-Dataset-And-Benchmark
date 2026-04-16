@@ -8,12 +8,12 @@ The original dataset is too large to be hosted directly on GitHub. Please downlo
 
 1. Click the link above and download the dataset files.
 2. Extract the downloaded files (if compressed).
-3. Place the `AutoHack2025_IDS_Dataset_GA_20251121` folder directly into this `dataset/` directory.
+3. Place the `AutoHack2025_Dataset` folder directly into this `dataset/` directory.
 
 When done correctly, your folder structure should look exactly like this:
 ```text
 dataset/
-    └── AutoHack2025_IDS_Dataset_GA_20251121/
+    └── AutoHack2025_Dataset/
         ├── Interface/
         │   ├── train/
         │   │   ├── autohack2025_train_data_interface_with_labels.csv
