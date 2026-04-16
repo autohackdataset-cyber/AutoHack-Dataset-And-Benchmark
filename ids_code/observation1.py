@@ -9,7 +9,7 @@ Reproduces Table 8 and Figure 3 from the paper:
   - Figure 3 : Confusion matrix of the Random Forest model (SubClass).
 
 Mirrors ids.py training logic exactly:
-  - Inputs: source/AutoHack2025/train_proc.csv, test_proc.csv
+  - Inputs: source/AutoHack/train_proc.csv, test_proc.csv
   - process_data() drops Timestamp column
   - feature_columns = columns - {Class, Label, Bus}
   - RandomForestClassifier(n_estimators=130, max_depth=30, n_jobs=18)
