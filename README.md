@@ -34,7 +34,7 @@ This repository contains the preprocessing pipelines and baseline Intrusion Dete
 This project requires **Python 3.8+**. It is highly recommended to use a virtual environment (e.g., `venv` or `conda`).
 
 1. **Clone or download** this repository.
-2. Ensure the raw dataset is properly placed in the `dataset/` folder as shown in the structure above.
+2. **Download the dataset** following the instructions provided in [dataset/AutoHack2025_Dataset.md](dataset/AutoHack2025_Dataset.md) and ensure it is properly placed as shown in the structure above.
 3. **Install the required packages** using the provided `requirements.txt`:
 
 ```bash
