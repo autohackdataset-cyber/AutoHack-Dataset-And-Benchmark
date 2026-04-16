@@ -12,7 +12,7 @@ This script performs foundational data preprocessing on the raw `.csv` CAN-IDS d
 
 ## Workflow Integration
 - **Input path**: Reads CSV files inside the dataset specifically using `Interface` paths -> `dataset/.../Interface/train` and `.../test`.
-- **Output path**: Writes aggregated and cleaned datasets as `<subset>_proc.csv` to `preprocess/source/AutoHack2025`.
+- **Output path**: Writes aggregated and cleaned datasets as `<subset>_proc.csv` to `preprocess/source/AutoHack`.
 
 ## Execution Guide
 Simply run the script within your chosen environment:
