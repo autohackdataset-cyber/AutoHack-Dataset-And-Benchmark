@@ -1,13 +1,13 @@
 # AutoHack-Dataset-And-Benchmark
 
-This repository contains the preprocessing pipelines and baseline Intrusion Detection System (IDS) evaluation scripts for the AutoHack2025 CAN-IDS dataset. The scripts are fully configured to be run out-of-the-box by cloning the repository and running the provided commands.
+This repository contains the preprocessing pipelines and baseline Intrusion Detection System (IDS) evaluation scripts for the AutoHack CAN-IDS dataset. The scripts are fully configured to be run out-of-the-box by cloning the repository and running the provided commands.
 
 ## 📂 Project Structure
 
 ```text
 .
 ├── dataset/
-│   └── AutoHack2025_Dataset/    # Place the raw dataset here
+│   └── AutoHack_Dataset/    # Place the raw dataset here
 │       ├── Interface/
 │       │   ├── train/                           # Raw train CSVs
 │       │   └── test/                            # Raw test CSVs
@@ -34,7 +34,7 @@ This repository contains the preprocessing pipelines and baseline Intrusion Dete
 This project requires **Python 3.8+**. It is highly recommended to use a virtual environment (e.g., `venv` or `conda`).
 
 1. **Clone or download** this repository.
-2. **Download the dataset** following the instructions provided in [dataset/AutoHack2025_Dataset.md](dataset/AutoHack2025_Dataset.md) and ensure it is properly placed as shown in the structure above.
+2. **Download the dataset** following the instructions provided in [dataset/AutoHack_Dataset.md](dataset/AutoHack_Dataset.md) and ensure it is properly placed as shown in the structure above.
 3. **Install the required packages** using the provided `requirements.txt`:
 
 ```bash
