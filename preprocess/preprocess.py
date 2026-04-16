@@ -88,11 +88,11 @@ def main():
     base_path = os.path.dirname(program_path)
     
     path_list = [
-        os.path.join(base_path, "dataset", "AutoHack2025_Dataset", "Interface", "train"),
-        os.path.join(base_path, "dataset", "AutoHack2025_Dataset", "Interface", "test")
+        os.path.join(base_path, "dataset", "AutoHack_Dataset", "Interface", "train"),
+        os.path.join(base_path, "dataset", "AutoHack_Dataset", "Interface", "test")
     ]
 
-    source_path = os.path.join(program_path, "source", "AutoHack2025")
+    source_path = os.path.join(program_path, "source", "AutoHack")
     os.makedirs(source_path, exist_ok=True)
 
     for path in path_list:
