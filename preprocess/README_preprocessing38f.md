@@ -16,13 +16,13 @@ This script is responsible for extracting 38 distinct features from the raw CAN-
    - `PAYLOAD_ENTROPY`
 
 ## Inputs
-The script expects the raw AutoHack2025 dataset located at:
-`../dataset/AutoHack2025_Dataset/Interface/`
-- Training Data: `train/autohack2025_train_data_interface.csv`, `train/autohack2025_train_label_interface.csv`
-- Testing Data: `test/autohack2025_test_data_interface.csv`, `test/autohack2025_test_label_interface.csv`
+The script expects the raw AutoHack dataset located at:
+`../dataset/AutoHack_Dataset/Interface/`
+- Training Data: `train/autohack_train_data_interface.csv`, `train/autohack_train_label_interface.csv`
+- Testing Data: `test/autohack_test_data_interface.csv`, `test/autohack_test_label_interface.csv`
 
 ## Outputs
-The processed artifacts are saved into `preprocess/source/AutoHack2025_38f/`:
+The processed artifacts are saved into `preprocess/source/AutoHack_38f/`:
 - `train_proc_38f.csv` / `.pkl` (Processed Train Data + Label + Interface)
 - `test_proc_38f.csv` / `.pkl` (Processed Test Data + Label + Interface)
 - Similar output structures separated per Interface type (B-CAN, C-CAN, P-CAN).
